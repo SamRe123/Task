@@ -27,7 +27,7 @@ const FilterPanel = ({ filters, handleSearchInput, handleStatusChange, handlePri
                         isOpen ?? "ring-2 ring-blue-500"
                     } `}
                 >
-                    <Filter size={20} className={isOpen ? "text-blue-500" : ""} />
+                    <Filter size={20} className={isOpen ? "text-blue-600" : ""} />
                     Filter
                 </button>
                 {isOpen && (

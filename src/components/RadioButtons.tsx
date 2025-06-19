@@ -14,7 +14,7 @@ const RadioButton = ({ onCheck, isSelected, label }: RadioButtonProps) => {
                 name="programming-language"
                 checked={isSelected}
                 onChange={() => onCheck(label)}
-                className="w-4 text-blue-600 bg-gray-100 border-gray-300  "
+                className="w-4 text-blue-500 bg-gray-100 border-gray-300  "
             />
             <span className="text-gray-700 font-medium">{label}</span>
         </label>
